@@ -1,0 +1,16 @@
+C:\__\JBlocks\JBlocks.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\__\JBlocks\JBlocks.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\__\JBlocks\JBlocks.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\__\JBlocks\JBlocks.Tests\bin\Debug\JBlocks.Tests.dll
+C:\__\JBlocks\JBlocks.Tests\bin\Debug\JBlocks.Tests.pdb
+C:\__\JBlocks\JBlocks.Tests\bin\Debug\JBlocks.dll
+C:\__\JBlocks\JBlocks.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\__\JBlocks\JBlocks.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\__\JBlocks\JBlocks.Tests\bin\Debug\JBlocks.pdb
+C:\__\JBlocks\JBlocks.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\__\JBlocks\JBlocks.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\__\JBlocks\JBlocks.Tests\obj\Debug\JBlocks.Tests.csprojAssemblyReference.cache
+C:\__\JBlocks\JBlocks.Tests\obj\Debug\JBlocks.Tests.csproj.CoreCompileInputs.cache
+C:\__\JBlocks\JBlocks.Tests\obj\Debug\JBlocks.Tests.csproj.CopyComplete
+C:\__\JBlocks\JBlocks.Tests\obj\Debug\JBlocks.Tests.dll
+C:\__\JBlocks\JBlocks.Tests\obj\Debug\JBlocks.Tests.pdb

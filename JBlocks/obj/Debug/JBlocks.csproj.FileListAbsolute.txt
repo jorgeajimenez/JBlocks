@@ -1,0 +1,5 @@
+C:\__\JBlocks\JBlocks\bin\Debug\JBlocks.dll
+C:\__\JBlocks\JBlocks\bin\Debug\JBlocks.pdb
+C:\__\JBlocks\JBlocks\obj\Debug\JBlocks.csproj.CoreCompileInputs.cache
+C:\__\JBlocks\JBlocks\obj\Debug\JBlocks.dll
+C:\__\JBlocks\JBlocks\obj\Debug\JBlocks.pdb

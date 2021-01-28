@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBlocks", "JBlocks\JBlocks.csproj", "{3582A333-B6E8-4618-8FBF-7B5ADA9E84E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBlocks.Tests", "JBlocks.Tests\JBlocks.Tests.csproj", "{9DBA6724-D502-40EC-9327-026B0409A859}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3582A333-B6E8-4618-8FBF-7B5ADA9E84E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3582A333-B6E8-4618-8FBF-7B5ADA9E84E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3582A333-B6E8-4618-8FBF-7B5ADA9E84E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3582A333-B6E8-4618-8FBF-7B5ADA9E84E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DBA6724-D502-40EC-9327-026B0409A859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DBA6724-D502-40EC-9327-026B0409A859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DBA6724-D502-40EC-9327-026B0409A859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DBA6724-D502-40EC-9327-026B0409A859}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE4D10FD-9682-46F2-A514-D67A321A1E2B}
+	EndGlobalSection
+EndGlobal
