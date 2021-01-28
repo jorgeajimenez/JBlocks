@@ -27,10 +27,20 @@ namespace JBlocks
             return genesis;
         }
 
+        public void AddGenesisBlock(JBlock block)
+        {
+            var chain = Chain as List<JBlock>;
+            if (chain == null) chain = new List<JBlock>();
+
+            chain.Add(block);
+            Chain = chain;
+        }
+
         public void AddGenesisBlock()
         {
             var chain = Chain as List<JBlock>;
             if (chain == null) chain = new List<JBlock>();
+
             chain.Add(CreateGenesisBlock());
             Chain = chain;
         }
@@ -46,6 +56,9 @@ namespace JBlocks
             block.Index = latestBlock.Index + 1;
             block.PreviousHash = latestBlock.CurrentHash;
             block.CurrentHash = block.CalculateHash();
+
+            block.Target = block.Data.DestinationWalletId;
+            block.Source = block.Data.SourceWalletId;
 
             var chain = Chain as List<JBlock>;
             if (chain == null) chain = new List<JBlock>();

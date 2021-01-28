@@ -7,7 +7,9 @@ namespace JBlocks.Tests
     [TestClass]
     public class JBlockChainTests
     {
+        //  reusable values to be used in testing
         private readonly string testSourceWalledId = $"c9b79ff1841fb5cfecc66e1ea5a29b4d";
+
         private readonly string testDestinationWalledId = $"bee2f0b0c21075018e494bdf075b0b23";
         private readonly double testAmount = 19.95;
 
@@ -16,6 +18,7 @@ namespace JBlocks.Tests
         {
             var jBlock = new JBlock();
 
+            //  verify the index is 0, that is, that the index was properly initialized
             Assert.AreEqual(jBlock.Index, 0);
         }
 
@@ -24,6 +27,7 @@ namespace JBlocks.Tests
         {
             var jBlock = new JBlock();
 
+            //  don't create default block, add some data
             jBlock.Data = new CryptoTransaction()
             {
                 SourceWalletId = testSourceWalledId,
@@ -56,7 +60,7 @@ namespace JBlocks.Tests
                 }
             });
 
-            //  send back half
+            //  send back half of the amount
             testCoin.AddBlock(new JBlock()
             {
                 Data = new CryptoTransaction()

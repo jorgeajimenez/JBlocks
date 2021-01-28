@@ -14,7 +14,8 @@ namespace JBlocks
         public T Data { get; set; }
         public string PreviousHash { get; set; }
         public string Nonce { get; set; }
-        public int Target { get; set; }
+        public string Target { get; set; }
+        public string Source { get; set; }
         public string CurrentHash { get; set; }
 
         public Block(long timestamp, string previousHash, T data)
