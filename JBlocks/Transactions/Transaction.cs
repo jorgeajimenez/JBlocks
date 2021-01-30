@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JBlocks
+namespace JBlocks.Transactions
 {
     public abstract class Transaction
     {

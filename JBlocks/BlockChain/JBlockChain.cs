@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using JBlocks.Transactions;
+using JBlocks.Block;
 
-namespace JBlocks
+namespace JBlocks.BlockChain
 {
     public class JBlockChain : IBlockChain<JBlock>
     {

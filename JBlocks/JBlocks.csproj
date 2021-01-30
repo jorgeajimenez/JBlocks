@@ -41,13 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Block.cs" />
-    <Compile Include="CryptoTransaction.cs" />
-    <Compile Include="IBlockChain.cs" />
-    <Compile Include="JBlock.cs" />
-    <Compile Include="JBlockChain.cs" />
+    <Compile Include="Block\Block.cs" />
+    <Compile Include="Exchange\ILedger.cs" />
+    <Compile Include="Exchange\TradeEvent.cs" />
+    <Compile Include="Transactions\CryptoTransaction.cs" />
+    <Compile Include="BlockChain\IBlockChain.cs" />
+    <Compile Include="Block\JBlock.cs" />
+    <Compile Include="BlockChain\JBlockChain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Transaction.cs" />
+    <Compile Include="Transactions\Transaction.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

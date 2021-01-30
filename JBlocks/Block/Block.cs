@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JBlocks
+namespace JBlocks.Block
 {
     public abstract class Block<T>
     {

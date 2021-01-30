@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JBlocks
+namespace JBlocks.Exchange
 {
-    public class CryptoTransaction : Transaction
+    public interface ILedger
     {
     }
 }
